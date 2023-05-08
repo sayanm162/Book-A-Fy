@@ -1,0 +1,49 @@
+.dropdown-item {
+    --bs-dropdown-link-hover-bg:#b3d9eb;
+}
+
+.bg-body-custom {
+    background-color: aliceblue;
+}
+
+.login-icon {
+    width: 2vw;
+}
+
+.robo-text-style{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.signup-icon {
+    width: 2vw;
+}
+
+.nav-menu-icon{
+    width: 2vw;
+}
+
+.nav-menu-flight-icon{
+    width: 2vw;
+}
+
+.navbar-main-topic{
+    font-family: 'Oswald';
+    font-size: 25px;
+    position: relative;
+    top: 6px;
+    margin-left: 8px;
+}
+
+.navbar-main-icon {
+    border-radius: 5px;
+    box-shadow: 0 2px 99px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar .container-fluid {
+    padding: 13px;
+}
+
+
+
+

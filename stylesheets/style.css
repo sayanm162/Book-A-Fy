@@ -1,0 +1,269 @@
+@import url(navbar.css);
+@import url(fonts.google.com/specimen/Poppins);
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #35497e !important;
+    --bs-btn-border-color: #35497e !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.125);
+}
+
+.dropdown-item {
+    --bs-dropdown-link-hover-bg: #b3d9eb;
+}
+
+
+h1, h2 {
+    font-family: 'Oswald';
+}
+
+
+
+
+
+
+.services1-img {
+
+    height: 41vh;
+    width: 40vw !important;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125) 
+}
+
+.services2-img {
+    height: 42vh;
+    width: 40vw !important;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+    background-color: white;
+}
+
+.services3-img{
+    height: 42vh;
+    width: 40vw !important;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125) 
+}
+
+
+
+.SectionBD1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.inner1 {
+    width: 550px !important;
+    height: 300px !important;
+}
+ 
+.left-content1-head > h1 {
+    font-size: 46px;
+}
+
+
+.mainHeading {
+    font-size: 45px;
+    font-family: 'Oswald';
+    font-style: italic;
+    
+    position:relative;
+    top: 12vh;
+}
+
+div.left-content1-desc {
+    width: 38vw;
+}
+
+.left-content1-head {
+    font-size: 46px;
+
+}
+
+.content1-image > img {
+    width: 43vw;
+}
+
+.content1-p {
+    width: 32vw;
+}
+
+.services-header, .sec4-header, .sec3-head {
+    font-size: 4vw;
+}
+
+.p-desc {
+    width: 20vw;
+}
+
+.contact-section4 {
+    min-height: 100vh;
+    background-image:url(../Assets/mountainTour.jpg);
+    background-size: cover;
+    
+}
+
+.form-section {
+    padding-top: 8vh;
+}
+
+/* #1F305E */
+
+.sec4-header {
+    color:  #d9d9d9;
+    padding-top: 4vh;
+}
+
+input, textarea {
+   box-shadow: inset 5px 5px 5px #cbced1,
+    inset -5px -5px 5px #ffffff;
+    border-radius: 12px;
+}
+
+.form-image-sec > img {
+    width: 30vw;
+}
+
+.form-image {
+    position: relative;
+    bottom: 25px;
+}
+.services {
+    background-color: #AFDBF5;
+}
+
+.section3 {
+    min-height: 100vh;
+}
+
+.inner2{
+    width: 80vw !important;
+    height: 80vh !important;
+}
+
+.carousal-text-styling {
+    color: rgb(85, 83, 83);
+}
+
+.carousel-control-prev-icon {
+    color: rgb(85, 83, 83);
+}
+
+.services-header {
+    padding-top: 7vh;
+}
+
+
+.label-style {
+    font-family: 'Roboto Mono';
+    font-size: medium
+
+}
+.alignHomeButton{
+    padding-top: 19%;
+    padding-left: 110%;
+}
+
+/* card section */
+
+
+:root{   
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+}
+
+
+
+.box{
+    border: 1px solid;
+    max-height: 13rem;
+    max-width: 16.75rem;
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 22px var(--Grayish-Blue);
+    background-color: var(--Very-Light-Gray);
+}
+
+
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.edge-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.box1{
+    border-top: 5px solid var(--Cyan);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.box2{
+    border-top: 5px solid var(--Red);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.box3{
+    border-top: 5px solid var(--Orange);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.box4{
+    border-top: 5px solid var(--Blue);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.box h3 {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+}
+
+.box p{
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+@media (max-width: 968px) {
+
+    .items{
+        display: block;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media (min-width: 969px){
+    body{
+        margin: auto;
+        place-items: center;
+    }
+}
