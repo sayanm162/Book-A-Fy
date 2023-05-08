@@ -23,13 +23,14 @@ h1, h2 {
 
 .section2-cards{
     background-image: url(../Assets/cover3.jpg);
-    padding-top: 50px;
-    padding-bottom:50px;
+    padding-top: 40px;
+
+    padding-bottom:40px;
 }
 
 .section2-cards header {
-    text-align: center;
-    padding-bottom: 20px;
+    text-align:center;
+    padding-bottom:20px;
 }
 
 
