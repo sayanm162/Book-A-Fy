@@ -1,0 +1,23 @@
+.custom-color {
+    background-color: teal !important;
+}
+
+.social-links   li:hover {
+    background-color: teal !important;
+}
+
+.tabs  li .active {
+    background-color: teal !important;
+}
+
+.social-icons a:hover {
+    background-color: teal !important;
+}
+
+.service-item:hover{
+    background-color: teal !important;
+}
+
+ .owl-page.active span,  .owl-page:hover span  {
+    background-color: teal !important;
+}
