@@ -1,10 +1,4 @@
 # GovForge
-<style>
-  .supra-img {
-  width: 50px;
-  height: 50px;
-  }
-  </style>
 <h1>Contributers to this project<h1>
 <a href="https://github.com/itsAditya0512"> <img src="https://github.com/itsAditya0512.png?size=50"> </a>
 <a href="https://github.com/sayanm162"> <img src="https://github.com/sayanm162.png?size=50"> </a>
