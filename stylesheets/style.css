@@ -259,10 +259,7 @@ input, textarea {
     font-family: 'Roboto';
 }
 
-footer {
-    background-color: rgb(23, 9, 47);
-    min-height:20vh;
-}
+
 
 @media (max-width: 968px) {
 
