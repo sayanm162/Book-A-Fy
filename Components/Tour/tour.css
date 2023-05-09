@@ -83,6 +83,37 @@ header{
     scale: 0.95;
 }
 
+/* Dropdown Design*/
+
+.DropdownMenu{
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 0;
+    height:0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.DropdownMenu .Open{
+    height: 240px;
+    width: 300px;
+}
+.DropdownMenu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DropdownMenu .action_btn{
+    display:flex;
+    width:90%;
+    justify-content: center;
+}
+
 /* Responsive Design*/
 
 @media (max-width: 992px) {
@@ -96,30 +127,8 @@ header{
     .Navbar .Toggle_btn{
         display: block;
     }
+    .DropdownMenu{
+        display: block;
+    }
 }
 
-/* Dropdown Design*/
-
-.DropdownMenu{
-    position: relative;
-    right: -20rem;
-    top: 60px;
-    width: 300px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.DropdownMenu li{
-    padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.DropdownMenu .action_btn{
-    display:flex;
-    width:90%;
-    justify-content: center;
-}
