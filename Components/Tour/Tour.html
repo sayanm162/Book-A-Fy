@@ -24,7 +24,7 @@
             </div>
         </div>
         
-        <div class="DropdownMenu Open">
+        <div class="DropdownMenu">
             <li><a href="#">Destination</a></li>
             <li><a href="#">Trips</a></li>
             <li><a href="#">Experiences</a></li>
@@ -32,5 +32,27 @@
             <li><a href="#" class="action_btn">Let's Tour</a></li>
         </div>
     </header>
+
+    <main>
+        <section id="MainContent">
+            <h1>Your Journey, Jour Story</h1>
+            <p>Live Your Life By A Compass, Not A Clock.</p>
+        </section>
+    </main>
+
+    <script>
+
+        const Togglebtn=document.querySelector('toggle_btn')
+        const TogglebtnIcon=document.querySelector('toggle_btn i')
+        const Drop=document.querySelector('DropdownMenu')
+
+        Togglebtn.onclick= function(){
+            Drop.classList.toggle('Open')
+            const isOpen=Drop.classList.contains('Open')
+            TogglebtnIcon.classList=isOpen?'fa-solid fa-xmark':'fa-solid fa-bars'
+        }
+
+    </script>
+
 </body>
 </html>
