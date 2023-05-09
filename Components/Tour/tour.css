@@ -137,6 +137,42 @@ section#MainContent{
     color:orange;
 }
 
+/* Search Box Design*/
+
+.ForSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: -3.5%;
+}
+.SearchBox{
+    width:100%;
+    max-width: 750px;
+    background-color: rgba(255, 255, 255,0.7);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.SearchBox input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color:
+}
+.SearchBox button img{
+    width: 25px;
+}
+.SearchBox button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background:orange ;
+    cursor: pointer;
+}
 /* Responsive Design*/
 
 @media (max-width: 992px) {
