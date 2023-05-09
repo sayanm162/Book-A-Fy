@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
 }
 
 body{
@@ -83,6 +84,95 @@ header{
     scale: 0.95;
 }
 
+/* Dropdown Design*/
+
+.DropdownMenu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height:0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.DropdownMenu .Open{
+    height: 240px;
+}
+.DropdownMenu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DropdownMenu .action_btn{
+    display:flex;
+    width:90%;
+    justify-content: center;
+}
+
+/* Main Content Design*/
+
+section#MainContent{
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#fff;
+    font-family: 'Oswald';
+}
+
+#MainContent h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+#MainContent p{
+    color:orange;
+}
+
+/* Search Box Design*/
+
+.ForSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: -3.5%;
+}
+.SearchBox{
+    width:100%;
+    max-width: 750px;
+    background-color: rgba(255, 255, 255,0.7);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.SearchBox input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+}
+.SearchBox button img{
+    width: 25px;
+}
+.SearchBox button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background:orange ;
+    cursor: pointer;
+}
+
 /* Responsive Design*/
 
 @media (max-width: 992px) {
@@ -96,30 +186,8 @@ header{
     .Navbar .Toggle_btn{
         display: block;
     }
+    .DropdownMenu{
+        display: block;
+    }
 }
 
-/* Dropdown Design*/
-
-.DropdownMenu{
-    position: relative;
-    right: -20rem;
-    top: 60px;
-    width: 300px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.DropdownMenu li{
-    padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.DropdownMenu .action_btn{
-    display:flex;
-    width:90%;
-    justify-content: center;
-}

@@ -13,10 +13,10 @@
         <div class="Navbar">
             <div class="WebsiteName"><a href="../../index.html">EzTour</a></div>
             <ul class="Features">
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Trips</a></li>
-                <li><a href="#">Experiences</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="./destination.html">Destination</a></li>
+                <li><a href="./package.html">Tour Packages</a></li>
+                <li><a href="./testimonial.html">Experiences</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
             <a href="#" class="action_btn">Let's Tour</a>
             <div class="Toggle_btn">
@@ -25,12 +25,41 @@
         </div>
         
         <div class="DropdownMenu">
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Trips</a></li>
+            <li><a href="./destination.html">Destination</a></li>
+            <li><a href="">Tour Packages</a></li>
             <li><a href="#">Experiences</a></li>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#" class="action_btn">Let's Tour</a></li>
         </div>
     </header>
+
+    <main>
+        <section id="MainContent">
+            <h1>Your Journey, Your Story</h1>
+            <p>Live Your Life By A Compass, Not A Clock.</p>
+        </section>
+    </main>
+
+    <div class="ForSearch">
+        <form action-"" class="SearchBox">
+            <input type="text" placeholder="Search Your Destination" name="q">
+            <button type="submit"><img src="./TourPics/search.png"></button>
+        </form>
+    </div>
+
+    <script>
+
+        const Togglebtn=document.querySelector('toggle_btn')
+        const TogglebtnIcon=document.querySelector('toggle_btn i')
+        const Drop=document.querySelector('DropdownMenu')
+
+        Togglebtn.onclick= function(){
+            Drop.classList.toggle('Open')
+            const isOpen=Drop.classList.contains('Open')
+            TogglebtnIcon.classList=isOpen?'fa-solid fa-xmark':'fa-solid fa-bars'
+        }
+
+    </script>
+
 </body>
 </html>
