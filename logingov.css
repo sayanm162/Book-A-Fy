@@ -69,6 +69,9 @@ form .txt_field{
     transition: .5s;
     padding-left: 60px;
 }
+.txt_field .email-label{
+    padding-right: 10%;
+}
 
 .txt_field span::before{
     content:'';
@@ -83,7 +86,7 @@ form .txt_field{
 
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
-    top:-8px;
+    top:-9px;
     color:#2691d9;
 }
 
