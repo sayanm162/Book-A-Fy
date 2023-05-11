@@ -16,6 +16,10 @@ body{
     margin: 8% auto 0;
     text-align:center;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,.4);
+}
+.sign-up-form h1{
+    color:#064b79;
 }
 
 button{
