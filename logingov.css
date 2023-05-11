@@ -60,7 +60,7 @@ form .txt_field{
 
 .txt_field label{
     position: absolute;
-    top:50%;
+    top:40%;
     left:5px;
     color:#adadad;
     transform:translate(-50%);
@@ -83,7 +83,7 @@ form .txt_field{
 
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
-    top:-5px;
+    top:-8px;
     color:#2691d9;
 }
 
@@ -134,11 +134,6 @@ input[type="submit"]:hover{
 .signup_link a:hover{
     text-decoration: underline;
 }
-
-.txt_user{
-    padding-bottom: 10px !important;
-}
-
 
 
 
